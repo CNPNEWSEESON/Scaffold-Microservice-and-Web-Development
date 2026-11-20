@@ -11,7 +11,7 @@ for (const product of products) {
     console.log(product.id, total);
 }
 
-console.log(JSON.stringify(products););
+console.log(JSON.stringify(products));
 
 const incomingQuantity: unknown = JSON.parse('"2"');
 if (typeof incomingQuantity === "number") {
